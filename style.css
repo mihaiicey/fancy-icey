@@ -579,14 +579,6 @@ video {
   position: relative;
 }
 
-.top-0 {
-  top: 0px;
-}
-
-.right-0 {
-  right: 0px;
-}
-
 .z-50 {
   z-index: 50;
 }
@@ -607,10 +599,6 @@ video {
 
 .mr-2 {
   margin-right: 0.5rem;
-}
-
-.inline {
-  display: inline;
 }
 
 .flex {

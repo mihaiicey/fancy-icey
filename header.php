@@ -44,11 +44,13 @@
                              alt="<?=esc_html__("Cart", "fancy-icey")?>"
                              width="25" height="25"
                         />
-                        <span class="badge"><?=WC()->cart->get_cart_contents_count()?></span>
+                        <span class="badge header-cart-count"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
                     </a>
                     <div id="popUpCart" class="relative minicart bg-white">
                         <div class="text-black z-50 pt-2">
+                            <div class="widget_shopping_cart_content">
                             <?=woocommerce_mini_cart();?>
+                            </div>
                         </div>
                     </div>
                 </div>
