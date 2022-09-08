@@ -8,7 +8,6 @@
  */
 require get_template_directory() . '/angus.php';
 require get_template_directory().'/inc/woo-shop-modify.php';
-require get_template_directory() . '/inc/MiniCart.php';
 
 function fancy_icey_load_theme_textdomain() {
     load_theme_textdomain( 'fancy-icey', get_template_directory() . '/languages' );

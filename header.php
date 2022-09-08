@@ -39,7 +39,18 @@
                     ?>
                 </div>
                 <div class="cart m-auto text-white basis-16">
-                    <?php echo do_shortcode('[customAngusMiniCart]'); ?>
+                    <a href="<?=wc_get_cart_url()?>" class="relative">
+                        <img src="<?=get_template_directory_uri()?>/images/cart.svg"
+                             alt="<?=esc_html__("Cart", "fancy-icey")?>"
+                             width="25" height="25"
+                        />
+                        <span class="badge"><?=WC()->cart->get_cart_contents_count()?></span>
+                    </a>
+                    <div id="popUpCart" class="relative minicart bg-white">
+                        <div class="text-black z-50 pt-2">';
+                            <?=woocommerce_mini_cart();?>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
