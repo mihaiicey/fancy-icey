@@ -86,12 +86,12 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 	<?php do_action( 'woocommerce_widget_shopping_cart_before_buttons' ); ?>
 
 	<div class="woocommerce-mini-cart__buttons buttons bg-black flex justify-center">
-        <a href="<?php esc_url( wc_get_checkout_url() ) ?>"
+        <a href="<?=esc_url( wc_get_cart_url() ) ?>"
            class="mini-cart-checkout font-semibold mr-2 px-4 py-1 text-white border-solid border-2 rounded border-white"
         >
             <?=esc_html__( 'View cart', 'woocommerce' )?>
         </a>
-        <a href="<?php esc_url( wc_get_checkout_url() ) ?>"
+        <a href="<?=esc_url( wc_get_checkout_url() ) ?>"
            class="mini-cart-checkout font-semibold px-4 py-1 text-pared border-solid border-2 rounded border-pared hover:text-white hover:bg-pared"
         >
             <?=esc_html__( 'Checkout', 'woocommerce' )?>
