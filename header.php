@@ -47,7 +47,7 @@
                         <span class="badge"><?=WC()->cart->get_cart_contents_count()?></span>
                     </a>
                     <div id="popUpCart" class="relative minicart bg-white">
-                        <div class="text-black z-50 pt-2">';
+                        <div class="text-black z-50 pt-2">
                             <?=woocommerce_mini_cart();?>
                         </div>
                     </div>
