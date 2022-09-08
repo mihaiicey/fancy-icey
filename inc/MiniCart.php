@@ -18,22 +18,3 @@ function custom_mini_cart() {
     return $content;
 }
 add_shortcode( 'customAngusMiniCart', 'custom_mini_cart' );
-
-
-//<div id="popUpCart" class="relative">
-//            <div class="absolute top-0 right-0 bg-white text-black">
-//'.woocommerce_mini_cart().'
-//            </div>
-//        </div>
-//echo '<a href="#" class="dropdown-back" data-toggle="dropdown"> ';
-//echo '<i class="fa fa-shopping-cart" aria-hidden="true"></i>';
-//echo '<div class="basket-item-count" style="display: inline;">';
-//echo '<span class="cart-items-count count">';
-//echo WC()->cart->get_cart_contents_count();
-//echo '</span>';
-//echo '</div>';
-//echo '</a>';
-//echo '<ul class="dropdown-menu dropdown-menu-mini-cart">';
-//echo '<li> <div class="widget_shopping_cart_content">';
-//woocommerce_mini_cart();
-//echo '</div></li></ul>';
