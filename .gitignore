@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+
+#tailwindconfig
+.tailwind.css
+.tailwind.config.js
