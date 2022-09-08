@@ -6,3 +6,5 @@
 #tailwindconfig
 .tailwind.css
 .tailwind.config.js
+.package.json
+.package-lock.jsongi
